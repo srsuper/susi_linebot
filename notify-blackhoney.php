@@ -2,7 +2,7 @@
 define('LINE_API',"https://notify-api.line.me/api/notify");
  
 $token = "8hl5zzFoaFLWrfOs5gZL4xs0t5PEJaaljd2TDZ267cO"; //ใส่Token ที่copy เอาไว้
-$str = "มีลูกค้าสั่ง แบล็คน้ำผึ้ง กรุณา ดูใน line ด้วยครับ"; //ข้อความที่ต้องการส่ง สูงสุด 1000 ตัวอักษร
+$str = "มีลูกค้าสั่ง ของ กรุณา ดูใน line ด้วยครับ"; //ข้อความที่ต้องการส่ง สูงสุด 1000 ตัวอักษร
  
 $res = notify_message($str,$token);
 print_r($res);
